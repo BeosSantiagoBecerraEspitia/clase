@@ -6,6 +6,7 @@ for (let i = 0; i <6; i++) {
 
 
 function calcular_moda(array){
+    moda = [0,0]
     for (let i = 0; i < array.length; i++) {
         repeticiones = 0
         for (let j = 0; j < array.length; j++) {
@@ -21,7 +22,7 @@ function calcular_moda(array){
     return moda
     }
     
-    moda=calcular_moda(array)
+    moda=calcular_moda(arreglo)
     console.log(`El numero que mas se repite es ${moda[0]} esta rerpetido ${moda[1]} veces `)
 
 function media(arreglo) {
@@ -43,7 +44,20 @@ function desviacion_estandar(arreglo) {
     desviacion = Math.sqrt((sumatoria / arreglo.length)-Math.pow(media(arreglo),2))
     return desviacion
 }
+console.log(desviacion_estandar(arreglo))
 
+
+function desviacion_estandar2(array) {
+    sumatoria = 0
+    mediaaa = media(array)
+    for (let i = 0; i < array.length; i++) {
+        sumatoria += Math.pow(array[i]-(mediaaa(array)), 2)
+        
+    }
+    desviacion =Math.sqrt(sumatoria /arguments.length);
+    return desviacion;
+}
+console.log(desviacion_estandar2(arreglo))
 function mediana (arreglo) {
 
     arregloordenado= arreglo
