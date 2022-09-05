@@ -95,3 +95,10 @@ const iguales =(a,b,c) => {
 } 
 
 console.log()
+
+
+
+
+
+
+

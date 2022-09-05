@@ -22,3 +22,5 @@ objeto1.nombre = 'conejo domestico ';
 console.log(objeto1.nombre)
 console.log(objeto1.fnombre)
 console.log(objeto1.ombre)
+
+
