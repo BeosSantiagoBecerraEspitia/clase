@@ -9,7 +9,7 @@ class Pedido {
         this.fecha = new Date ()
         this.precio = 0
         for (let i = 0; i < this._lista.length; i++) {
-            this.precio+=this._lista[i]._preciobotella
+            this.precio+=this._lista[i]._precio
             
         }
     }

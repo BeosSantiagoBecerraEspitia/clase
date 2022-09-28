@@ -124,7 +124,7 @@ class Carrito {
     confirmacion(){
         return this.productos
     }
-    //falta quitar producto 
+    quitarproducto(producto)
 }
 let pedidos = 0
 class Pedido {
@@ -179,3 +179,4 @@ comentarios.añadircomentario('no llego el producto correctament tapado ')
 comentarios.mostrarcomentarios()
 //eval("pedido"+pedidos+"="+new Pedido(carritocliente.productos))
 //console.log('/////////////////////////////////////////////////////',carritocliente.productos,'/////////////////////////////////////////////////////')
+

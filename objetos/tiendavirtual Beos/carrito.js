@@ -10,7 +10,7 @@ class Carrito {
             this.productos.push(producto)
             inventario._cantidad+=-1
         } else {
-            console.log('el producto no esta disponible')
+            console.log('El producto no esta disponible')
             
         }
         
